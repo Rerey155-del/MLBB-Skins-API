@@ -1,6 +1,9 @@
 const express = require("express");
 const req = require("express/lib/request");
 const app = express();
+const cors = require("cors");
+
+app.use(cors());
 
 app.get("/", (req, res) => {
     res.json({
