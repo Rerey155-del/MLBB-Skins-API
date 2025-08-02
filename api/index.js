@@ -9,7 +9,8 @@ app.get("/", (req, res) => {
     res.json({
         message: "Hello, Data Skin ML!",
         data: {
-            skins: [
+
+            "skins": [
                 {
                     "id": 1,
                     "hero": "Alucard",
@@ -21,7 +22,11 @@ app.get("/", (req, res) => {
                         "release_year": 2016,
                         "rarity": "Common",
                         "effects": "Efek visual dasar",
-                        "availability": "Toko"
+                        "availability": "Toko",
+                        "category": "Classic",
+                        "additional_effects": "Perubahan warna armor dan pedang",
+                        "exclusivity": "Permanen",
+                        "event_context": "Tersedia sejak rilis awal game"
                     }
                 },
                 {
@@ -35,7 +40,11 @@ app.get("/", (req, res) => {
                         "release_year": 2017,
                         "rarity": "Rare",
                         "effects": "Efek skill ditingkatkan, animasi baru",
-                        "availability": "Toko"
+                        "availability": "Toko",
+                        "category": "Mystical",
+                        "additional_effects": "Efek panah bercahaya bulan, animasi skill baru",
+                        "exclusivity": "Permanen",
+                        "event_context": "Rilis untuk tema bulan purnama"
                     }
                 },
                 {
@@ -49,7 +58,11 @@ app.get("/", (req, res) => {
                         "release_year": 2018,
                         "rarity": "Uncommon",
                         "effects": "Efek skill kustom",
-                        "availability": "Event"
+                        "availability": "Event",
+                        "category": "Futuristic",
+                        "additional_effects": "Efek laser hijau pada skill, perubahan model futuristik",
+                        "exclusivity": "Terbatas waktu",
+                        "event_context": "Event teknologi tahunan MLBB"
                     }
                 },
                 {
@@ -63,7 +76,11 @@ app.get("/", (req, res) => {
                         "release_year": 2019,
                         "rarity": "Epic",
                         "effects": "Animasi unik, suara khusus",
-                        "availability": "Event Terbatas"
+                        "availability": "Event Terbatas",
+                        "category": "Animal-Themed",
+                        "additional_effects": "Animasi bambu pada skill, suara panda",
+                        "exclusivity": "Terbatas waktu",
+                        "event_context": "Event Tahun Baru Imlek"
                     }
                 },
                 {
@@ -77,7 +94,11 @@ app.get("/", (req, res) => {
                         "release_year": 2025,
                         "rarity": "Collector",
                         "effects": "Animasi recall eksklusif, efek bertema langit",
-                        "availability": "Event Koleksi Besar"
+                        "availability": "Event Koleksi Besar",
+                        "category": "Celestial",
+                        "additional_effects": "Efek aurora borealis pada skill, animasi masuk langit berbintang",
+                        "exclusivity": "Terbatas waktu",
+                        "event_context": "Grand Collection Event 2025"
                     }
                 },
                 {
@@ -92,7 +113,11 @@ app.get("/", (req, res) => {
                         "release_year": 2020,
                         "rarity": "Legend",
                         "effects": "Intro sinematik, suara unik, efek recall eksklusif",
-                        "availability": "Magic Wheel"
+                        "availability": "Magic Wheel",
+                        "category": "Cosmic",
+                        "additional_effects": "Efek galaksi pada pisau, animasi recall bertema luar angkasa",
+                        "exclusivity": "Eksklusif Magic Wheel",
+                        "event_context": "Rilis melalui Magic Wheel"
                     }
                 },
                 {
@@ -106,7 +131,11 @@ app.get("/", (req, res) => {
                         "release_year": 2016,
                         "rarity": "Common",
                         "effects": "Efek visual dasar",
-                        "availability": "Toko"
+                        "availability": "Toko",
+                        "category": "Martial",
+                        "additional_effects": "Perubahan warna tombak dan armor",
+                        "exclusivity": "Permanen",
+                        "event_context": "Tersedia sejak rilis awal game"
                     }
                 },
                 {
@@ -120,7 +149,11 @@ app.get("/", (req, res) => {
                         "release_year": 2017,
                         "rarity": "Rare",
                         "effects": "Efek skill ditingkatkan",
-                        "availability": "Toko"
+                        "availability": "Toko",
+                        "category": "Assassin",
+                        "additional_effects": "Efek pedang bercahaya, animasi serangan lebih halus",
+                        "exclusivity": "Permanen",
+                        "event_context": "Rilis untuk tema assassin"
                     }
                 },
                 {
@@ -134,7 +167,11 @@ app.get("/", (req, res) => {
                         "release_year": 2018,
                         "rarity": "Uncommon",
                         "effects": "Efek skill kustom",
-                        "availability": "Event"
+                        "availability": "Event",
+                        "category": "Knight",
+                        "additional_effects": "Efek perisai gelap, animasi skill bertema gothic",
+                        "exclusivity": "Terbatas waktu",
+                        "event_context": "Event Halloween"
                     }
                 },
                 {
@@ -148,7 +185,11 @@ app.get("/", (req, res) => {
                         "release_year": 2019,
                         "rarity": "Epic",
                         "effects": "Animasi unik, suara khusus",
-                        "availability": "Event Terbatas"
+                        "availability": "Event Terbatas",
+                        "category": "Magical",
+                        "additional_effects": "Efek petir hijau zamrud, suara mantra khusus",
+                        "exclusivity": "Terbatas waktu",
+                        "event_context": "Event musiman"
                     }
                 },
                 {
@@ -162,7 +203,11 @@ app.get("/", (req, res) => {
                         "release_year": 2024,
                         "rarity": "Collector",
                         "effects": "Efek recall eksklusif, animasi bertema kosmik",
-                        "availability": "Event Koleksi Besar"
+                        "availability": "Event Koleksi Besar",
+                        "category": "Cosmic",
+                        "additional_effects": "Efek dualitas cahaya dan kegelapan, animasi recall galaksi",
+                        "exclusivity": "Terbatas waktu",
+                        "event_context": "Grand Collection Event 2024"
                     }
                 },
                 {
@@ -177,7 +222,11 @@ app.get("/", (req, res) => {
                         "release_year": 2021,
                         "rarity": "Legend",
                         "effects": "Intro sinematik, efek recall eksklusif",
-                        "availability": "Magic Wheel"
+                        "availability": "Magic Wheel",
+                        "category": "Sniper",
+                        "additional_effects": "Efek tembakan bercahaya, animasi masuk sinematik",
+                        "exclusivity": "Eksklusif Magic Wheel",
+                        "event_context": "Rilis melalui Magic Wheel"
                     }
                 },
                 {
@@ -191,7 +240,11 @@ app.get("/", (req, res) => {
                         "release_year": 2018,
                         "rarity": "Uncommon",
                         "effects": "Efek skill kustom",
-                        "availability": "Event"
+                        "availability": "Event",
+                        "category": "Knight",
+                        "additional_effects": "Efek kabel bercahaya emas, animasi skill kerajaan",
+                        "exclusivity": "Terbatas waktu",
+                        "event_context": "Event kerajaan MLBB"
                     }
                 },
                 {
@@ -205,7 +258,11 @@ app.get("/", (req, res) => {
                         "release_year": 2016,
                         "rarity": "Common",
                         "effects": "Efek visual dasar",
-                        "availability": "Toko"
+                        "availability": "Toko",
+                        "category": "Music",
+                        "additional_effects": "Perubahan warna revolver dan efek tembakan musik",
+                        "exclusivity": "Permanen",
+                        "event_context": "Tersedia sejak rilis awal game"
                     }
                 },
                 {
@@ -219,7 +276,11 @@ app.get("/", (req, res) => {
                         "release_year": 2017,
                         "rarity": "Rare",
                         "effects": "Efek skill ditingkatkan",
-                        "availability": "Toko"
+                        "availability": "Toko",
+                        "category": "Nature",
+                        "additional_effects": "Efek penyembuhan berbunga, animasi skill bertema alam",
+                        "exclusivity": "Permanen",
+                        "event_context": "Rilis untuk tema alam"
                     }
                 },
                 {
@@ -233,7 +294,11 @@ app.get("/", (req, res) => {
                         "release_year": 2019,
                         "rarity": "Epic",
                         "effects": "Animasi unik, suara khusus",
-                        "availability": "Event Terbatas"
+                        "availability": "Event Terbatas",
+                        "category": "Ninja",
+                        "additional_effects": "Efek bayangan pada skill, suara ninja khusus",
+                        "exclusivity": "Terbatas waktu",
+                        "event_context": "Event ninja-themed"
                     }
                 },
                 {
@@ -247,7 +312,11 @@ app.get("/", (req, res) => {
                         "release_year": 2018,
                         "rarity": "Uncommon",
                         "effects": "Efek skill kustom",
-                        "availability": "Event"
+                        "availability": "Event",
+                        "category": "Japanese",
+                        "additional_effects": "Efek payung bertema naga, animasi skill tradisional Jepang",
+                        "exclusivity": "Terbatas waktu",
+                        "event_context": "Event budaya Jepang"
                     }
                 },
                 {
@@ -261,7 +330,11 @@ app.get("/", (req, res) => {
                         "release_year": 2016,
                         "rarity": "Common",
                         "effects": "Efek visual dasar",
-                        "availability": "Toko"
+                        "availability": "Toko",
+                        "category": "Vehicle",
+                        "additional_effects": "Perubahan warna mobil dan efek ledakan",
+                        "exclusivity": "Permanen",
+                        "event_context": "Tersedia sejak rilis awal game"
                     }
                 },
                 {
@@ -275,7 +348,11 @@ app.get("/", (req, res) => {
                         "release_year": 2017,
                         "rarity": "Rare",
                         "effects": "Efek skill ditingkatkan",
-                        "availability": "Toko"
+                        "availability": "Toko",
+                        "category": "Futuristic",
+                        "additional_effects": "Efek pedang energi, animasi skill cyber",
+                        "exclusivity": "Permanen",
+                        "event_context": "Rilis untuk tema teknologi"
                     }
                 },
                 {
@@ -289,7 +366,11 @@ app.get("/", (req, res) => {
                         "release_year": 2024,
                         "rarity": "Collector",
                         "effects": "Animasi recall eksklusif, efek bertema permata",
-                        "availability": "Event Koleksi Besar"
+                        "availability": "Event Koleksi Besar",
+                        "category": "Elegant",
+                        "additional_effects": "Efek tarian permata, animasi recall bercahaya",
+                        "exclusivity": "Terbatas waktu",
+                        "event_context": "Grand Collection Event 2024"
                     }
                 },
                 {
@@ -303,7 +384,11 @@ app.get("/", (req, res) => {
                         "release_year": 2019,
                         "rarity": "Epic",
                         "effects": "Animasi unik, suara khusus",
-                        "availability": "Event Terbatas"
+                        "availability": "Event Terbatas",
+                        "category": "Steampunk",
+                        "additional_effects": "Efek kartu mekanik, suara mesin uap",
+                        "exclusivity": "Terbatas waktu",
+                        "event_context": "Event steampunk-themed"
                     }
                 },
                 {
@@ -317,7 +402,11 @@ app.get("/", (req, res) => {
                         "release_year": 2018,
                         "rarity": "Uncommon",
                         "effects": "Efek skill kustom",
-                        "availability": "Event"
+                        "availability": "Event",
+                        "category": "Knight",
+                        "additional_effects": "Efek pedang bercahaya, animasi skill elegan",
+                        "exclusivity": "Terbatas waktu",
+                        "event_context": "Event kerajaan MLBB"
                     }
                 },
                 {
@@ -331,7 +420,11 @@ app.get("/", (req, res) => {
                         "release_year": 2016,
                         "rarity": "Common",
                         "effects": "Efek visual dasar",
-                        "availability": "Toko"
+                        "availability": "Toko",
+                        "category": "Magical",
+                        "additional_effects": "Perubahan warna sayap dan efek burung merpati",
+                        "exclusivity": "Permanen",
+                        "event_context": "Tersedia sejak rilis awal game"
                     }
                 },
                 {
@@ -345,7 +438,11 @@ app.get("/", (req, res) => {
                         "release_year": 2017,
                         "rarity": "Rare",
                         "effects": "Efek skill ditingkatkan",
-                        "availability": "Toko"
+                        "availability": "Toko",
+                        "category": "Fortress",
+                        "additional_effects": "Efek dinding batu, animasi skill kastil",
+                        "exclusivity": "Permanen",
+                        "event_context": "Rilis untuk tema pertahanan"
                     }
                 },
                 {
@@ -359,7 +456,11 @@ app.get("/", (req, res) => {
                         "release_year": 2018,
                         "rarity": "Uncommon",
                         "effects": "Efek skill kustom",
-                        "availability": "Event"
+                        "availability": "Event",
+                        "category": "Ninja",
+                        "additional_effects": "Efek shuriken beracun, animasi skill bertema ular",
+                        "exclusivity": "Terbatas waktu",
+                        "event_context": "Event ninja-themed"
                     }
                 },
                 {
@@ -373,7 +474,11 @@ app.get("/", (req, res) => {
                         "release_year": 2019,
                         "rarity": "Epic",
                         "effects": "Animasi unik, suara khusus",
-                        "availability": "Event Terbatas"
+                        "availability": "Event Terbatas",
+                        "category": "Dark",
+                        "additional_effects": "Efek jiwa gelap pada skill, suara kontrak mistis",
+                        "exclusivity": "Terbatas waktu",
+                        "event_context": "Event mistis"
                     }
                 },
                 {
@@ -387,7 +492,11 @@ app.get("/", (req, res) => {
                         "release_year": 2016,
                         "rarity": "Common",
                         "effects": "Efek visual dasar",
-                        "availability": "Toko"
+                        "availability": "Toko",
+                        "category": "Martial",
+                        "additional_effects": "Perubahan warna tinju dan efek petir",
+                        "exclusivity": "Permanen",
+                        "event_context": "Tersedia sejak rilis awal game"
                     }
                 },
                 {
@@ -401,7 +510,11 @@ app.get("/", (req, res) => {
                         "release_year": 2017,
                         "rarity": "Rare",
                         "effects": "Efek skill ditingkatkan",
-                        "availability": "Toko"
+                        "availability": "Toko",
+                        "category": "Mecha",
+                        "additional_effects": "Efek skill mekanik, animasi kucing robot",
+                        "exclusivity": "Permanen",
+                        "event_context": "Rilis untuk tema teknologi"
                     }
                 },
                 {
@@ -415,7 +528,11 @@ app.get("/", (req, res) => {
                         "release_year": 2018,
                         "rarity": "Uncommon",
                         "effects": "Efek skill kustom",
-                        "availability": "Event"
+                        "availability": "Event",
+                        "category": "Mythical",
+                        "additional_effects": "Efek tongkat emas, animasi skill bertema legenda",
+                        "exclusivity": "Terbatas waktu",
+                        "event_context": "Event Tahun Baru Imlek"
                     }
                 },
                 {
@@ -429,7 +546,11 @@ app.get("/", (req, res) => {
                         "release_year": 2016,
                         "rarity": "Common",
                         "effects": "Efek visual dasar",
-                        "availability": "Toko"
+                        "availability": "Toko",
+                        "category": "Warrior",
+                        "additional_effects": "Perubahan warna kapak dan efek darah",
+                        "exclusivity": "Permanen",
+                        "event_context": "Tersedia sejak rilis awal game"
                     }
                 },
                 {
@@ -443,7 +564,11 @@ app.get("/", (req, res) => {
                         "release_year": 2019,
                         "rarity": "Epic",
                         "effects": "Animasi unik, suara khusus",
-                        "availability": "Event Terbatas"
+                        "availability": "Event Terbatas",
+                        "category": "Nordic",
+                        "additional_effects": "Efek rantai es, suara dewa nordik",
+                        "exclusivity": "Terbatas waktu",
+                        "event_context": "Event mitologi Nordik"
                     }
                 },
                 {
@@ -457,7 +582,11 @@ app.get("/", (req, res) => {
                         "release_year": 2018,
                         "rarity": "Uncommon",
                         "effects": "Efek skill kustom",
-                        "availability": "Event"
+                        "availability": "Event",
+                        "category": "Assassin",
+                        "additional_effects": "Efek asap bercahaya, animasi tarian bayangan",
+                        "exclusivity": "Terbatas waktu",
+                        "event_context": "Event malam misteri"
                     }
                 },
                 {
@@ -471,7 +600,11 @@ app.get("/", (req, res) => {
                         "release_year": 2017,
                         "rarity": "Rare",
                         "effects": "Efek skill ditingkatkan",
-                        "availability": "Toko"
+                        "availability": "Toko",
+                        "category": "Naval",
+                        "additional_effects": "Efek panah laut biru, animasi skill maritim",
+                        "exclusivity": "Permanen",
+                        "event_context": "Rilis untuk tema laut"
                     }
                 },
                 {
@@ -485,7 +618,11 @@ app.get("/", (req, res) => {
                         "release_year": 2019,
                         "rarity": "Epic",
                         "effects": "Animasi unik, suara khusus",
-                        "availability": "Event Terbatas"
+                        "availability": "Event Terbatas",
+                        "category": "Insect",
+                        "additional_effects": "Efek pisau serangga, suara mekanik",
+                        "exclusivity": "Terbatas waktu",
+                        "event_context": "Event teknologi serangga"
                     }
                 },
                 {
@@ -499,7 +636,11 @@ app.get("/", (req, res) => {
                         "release_year": 2024,
                         "rarity": "Collector",
                         "effects": "Animasi recall eksklusif, efek bertema bintang",
-                        "availability": "Event Koleksi Besar"
+                        "availability": "Event Koleksi Besar",
+                        "category": "Cosmic",
+                        "additional_effects": "Efek angin bercahaya bintang, animasi recall supernova",
+                        "exclusivity": "Terbatas waktu",
+                        "event_context": "Grand Collection Event 2024"
                     }
                 },
                 {
@@ -513,7 +654,11 @@ app.get("/", (req, res) => {
                         "release_year": 2018,
                         "rarity": "Uncommon",
                         "effects": "Efek skill kustom",
-                        "availability": "Event"
+                        "availability": "Event",
+                        "category": "Dark",
+                        "additional_effects": "Efek virus bercahaya, animasi skill gelap",
+                        "exclusivity": "Terbatas waktu",
+                        "event_context": "Event Halloween"
                     }
                 },
                 {
@@ -527,7 +672,11 @@ app.get("/", (req, res) => {
                         "release_year": 2017,
                         "rarity": "Rare",
                         "effects": "Efek skill ditingkatkan",
-                        "availability": "Toko"
+                        "availability": "Toko",
+                        "category": "Fantasy",
+                        "additional_effects": "Efek air bercahaya, animasi skill bertema laut",
+                        "exclusivity": "Permanen",
+                        "event_context": "Rilis untuk tema putri duyung"
                     }
                 },
                 {
@@ -541,7 +690,11 @@ app.get("/", (req, res) => {
                         "release_year": 2019,
                         "rarity": "Epic",
                         "effects": "Animasi unik, suara khusus",
-                        "availability": "Event Terbatas"
+                        "availability": "Event Terbatas",
+                        "category": "Dark",
+                        "additional_effects": "Efek cakar gelap, suara eksekusi mistis",
+                        "exclusivity": "Terbatas waktu",
+                        "event_context": "Event malam misteri"
                     }
                 },
                 {
@@ -555,7 +708,11 @@ app.get("/", (req, res) => {
                         "release_year": 2016,
                         "rarity": "Common",
                         "effects": "Efek visual dasar",
-                        "availability": "Toko"
+                        "availability": "Toko",
+                        "category": "Nature",
+                        "additional_effects": "Perubahan warna kapak dan efek alam liar",
+                        "exclusivity": "Permanen",
+                        "event_context": "Tersedia sejak rilis awal game"
                     }
                 },
                 {
@@ -569,7 +726,11 @@ app.get("/", (req, res) => {
                         "release_year": 2024,
                         "rarity": "Collector",
                         "effects": "Animasi recall eksklusif, efek bertema burung",
-                        "availability": "Event Koleksi Besar"
+                        "availability": "Event Koleksi Besar",
+                        "category": "Mystical",
+                        "additional_effects": "Efek bulu bercahaya, animasi recall bertema burung",
+                        "exclusivity": "Terbatas waktu",
+                        "event_context": "Grand Collection Event 2024"
                     }
                 },
                 {
@@ -583,7 +744,11 @@ app.get("/", (req, res) => {
                         "release_year": 2019,
                         "rarity": "Epic",
                         "effects": "Animasi unik, suara khusus",
-                        "availability": "Event Terbatas"
+                        "availability": "Event Terbatas",
+                        "category": "Dark",
+                        "additional_effects": "Efek tombak kegelapan, suara mistis",
+                        "exclusivity": "Terbatas waktu",
+                        "event_context": "Event malam misteri"
                     }
                 },
                 {
@@ -597,7 +762,11 @@ app.get("/", (req, res) => {
                         "release_year": 2018,
                         "rarity": "Uncommon",
                         "effects": "Efek skill kustom",
-                        "availability": "Event"
+                        "availability": "Event",
+                        "category": "Royal",
+                        "additional_effects": "Efek tombak emas, animasi skill kerajaan",
+                        "exclusivity": "Terbatas waktu",
+                        "event_context": "Event kerajaan MLBB"
                     }
                 },
                 {
@@ -612,7 +781,11 @@ app.get("/", (req, res) => {
                         "release_year": 2017,
                         "rarity": "Rare",
                         "effects": "Efek skill ditingkatkan",
-                        "availability": "Starlight Pass"
+                        "availability": "Starlight Pass",
+                        "category": "Cosmic",
+                        "additional_effects": "Efek orbit bintang, animasi skill luar angkasa",
+                        "exclusivity": "Eksklusif Starlight",
+                        "event_context": "Rilis melalui Starlight Pass bulanan"
                     }
                 },
                 {
@@ -626,7 +799,11 @@ app.get("/", (req, res) => {
                         "release_year": 2018,
                         "rarity": "Uncommon",
                         "effects": "Efek skill kustom",
-                        "availability": "Event"
+                        "availability": "Event",
+                        "category": "Horror",
+                        "additional_effects": "Efek darah pada skill, animasi vampir",
+                        "exclusivity": "Terbatas waktu",
+                        "event_context": "Event Halloween"
                     }
                 },
                 {
@@ -640,7 +817,11 @@ app.get("/", (req, res) => {
                         "release_year": 2019,
                         "rarity": "Epic",
                         "effects": "Animasi unik, suara khusus",
-                        "availability": "Event Terbatas"
+                        "availability": "Event Terbatas",
+                        "category": "Cyberpunk",
+                        "additional_effects": "Efek tembakan cyber, suara teknologi",
+                        "exclusivity": "Terbatas waktu",
+                        "event_context": "Event teknologi futuristik"
                     }
                 },
                 {
@@ -654,7 +835,11 @@ app.get("/", (req, res) => {
                         "release_year": 2016,
                         "rarity": "Common",
                         "effects": "Efek visual dasar",
-                        "availability": "Toko"
+                        "availability": "Toko",
+                        "category": "Nature",
+                        "additional_effects": "Perubahan warna angin pada skill",
+                        "exclusivity": "Permanen",
+                        "event_context": "Tersedia sejak rilis awal game"
                     }
                 },
                 {
@@ -668,7 +853,11 @@ app.get("/", (req, res) => {
                         "release_year": 2024,
                         "rarity": "Collector",
                         "effects": "Animasi recall eksklusif, efek bertema gothic",
-                        "availability": "Event Koleksi Besar"
+                        "availability": "Event Koleksi Besar",
+                        "category": "Gothic",
+                        "additional_effects": "Efek kelelawar bercahaya, animasi recall wisteria",
+                        "exclusivity": "Terbatas waktu",
+                        "event_context": "Grand Collection Event 2024, dipasangkan dengan Carmilla"
                     }
                 },
                 {
@@ -682,7 +871,11 @@ app.get("/", (req, res) => {
                         "release_year": 2024,
                         "rarity": "Collector",
                         "effects": "Animasi recall eksklusif, efek bertema gothic",
-                        "availability": "Event Koleksi Besar"
+                        "availability": "Event Koleksi Besar",
+                        "category": "Gothic",
+                        "additional_effects": "Efek bunga wisteria, animasi recall berpasangan",
+                        "exclusivity": "Terbatas waktu",
+                        "event_context": "Grand Collection Event 2024, dipasangkan dengan Cecilion"
                     }
                 },
                 {
@@ -697,7 +890,11 @@ app.get("/", (req, res) => {
                         "release_year": 2021,
                         "rarity": "Legend",
                         "effects": "Intro sinematik, efek recall eksklusif",
-                        "availability": "Magic Wheel"
+                        "availability": "Magic Wheel",
+                        "category": "Historical",
+                        "additional_effects": "Efek energi emas Mesir, animasi recall bertema ratu",
+                        "exclusivity": "Eksklusif Magic Wheel",
+                        "event_context": "Rilis melalui Magic Wheel"
                     }
                 },
                 {
@@ -711,10 +908,15 @@ app.get("/", (req, res) => {
                         "release_year": 2016,
                         "rarity": "Common",
                         "effects": "Efek visual dasar",
-                        "availability": "Toko"
+                        "availability": "Toko",
+                        "category": "Sport",
+                        "additional_effects": "Perubahan warna bola dan efek tembakan api",
+                        "exclusivity": "Permanen",
+                        "event_context": "Tersedia sejak rilis awal game"
                     }
                 }
             ]
+
         }
     })
 })
