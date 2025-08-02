@@ -214,7 +214,7 @@ app.get("/", (req, res) => {
                     "name": "Flower Fairy",
                     "type": "Elite",
                     "price": 899,
-                    "image": "https://example.com/images/rafaela-flower-fairy.jpg",
+                    "image": "https://i.pinimg.com/736x/a5/f1/05/a5f105c8d5bcb220b14ed3686c9dce49.jpg",
                     "attributes": {
                         "release_year": 2017,
                         "rarity": "Rare",
@@ -228,7 +228,7 @@ app.get("/", (req, res) => {
                     "name": "Shadow of Obscurity",
                     "type": "Epic",
                     "price": 1089,
-                    "image": "https://example.com/images/hayabusa-shadow-obscurity.jpg",
+                    "image": "https://i.pinimg.com/736x/0e/f5/40/0ef54024ccdab279eee4c4198aed720d.jpg",
                     "attributes": {
                         "release_year": 2019,
                         "rarity": "Epic",
@@ -242,7 +242,7 @@ app.get("/", (req, res) => {
                     "name": "Soryu Maiden",
                     "type": "Special",
                     "price": 749,
-                    "image": "https://example.com/images/kagura-soryu-maiden.jpg",
+                    "image": "https://i.pinimg.com/736x/ec/53/b5/ec53b51e9611f789413b4dae2dc87bee.jpg",
                     "attributes": {
                         "release_year": 2018,
                         "rarity": "Uncommon",
@@ -256,7 +256,7 @@ app.get("/", (req, res) => {
                     "name": "Wreck King",
                     "type": "Normal",
                     "price": 599,
-                    "image": "https://example.com/images/johnson-wreck-king.jpg",
+                    "image": "https://i.pinimg.com/736x/ea/ef/2d/eaef2dabb4cae5b4c0788e5345a3232d.jpg",
                     "attributes": {
                         "release_year": 2016,
                         "rarity": "Common",
@@ -270,7 +270,7 @@ app.get("/", (req, res) => {
                     "name": "Codename: Storm",
                     "type": "Elite",
                     "price": 899,
-                    "image": "https://example.com/images/saber-codename-storm.jpg",
+                    "image": "https://i.pinimg.com/736x/43/74/22/4374224f688d39178b8c514a1091596e.jpg",
                     "attributes": {
                         "release_year": 2017,
                         "rarity": "Rare",
@@ -284,7 +284,7 @@ app.get("/", (req, res) => {
                     "name": "Amethyst Dance",
                     "type": "Collector",
                     "price": 3000,
-                    "image": "https://example.com/images/guinevere-amethyst-dance.jpg",
+                    "image": "https://i.pinimg.com/736x/8d/3d/dc/8d3ddcc6d8567bd251316f5f10dd69cd.jpg",
                     "attributes": {
                         "release_year": 2024,
                         "rarity": "Collector",
@@ -298,7 +298,7 @@ app.get("/", (req, res) => {
                     "name": "Great Inventor",
                     "type": "Epic",
                     "price": 1089,
-                    "image": "https://example.com/images/harley-great-inventor.jpg",
+                    "image": "https://i.pinimg.com/736x/59/d6/fe/59d6feb1e8631cf3954855f56df7819b.jpg",
                     "attributes": {
                         "release_year": 2019,
                         "rarity": "Epic",
@@ -312,7 +312,7 @@ app.get("/", (req, res) => {
                     "name": "Swordmaster",
                     "type": "Special",
                     "price": 749,
-                    "image": "https://example.com/images/lancelot-swordmaster.jpg",
+                    "image": "https://i.pinimg.com/1200x/22/ba/00/22ba003239e4e59896ec95a1fe1f8b63.jpg",
                     "attributes": {
                         "release_year": 2018,
                         "rarity": "Uncommon",
@@ -326,7 +326,7 @@ app.get("/", (req, res) => {
                     "name": "Dove Magic",
                     "type": "Normal",
                     "price": 599,
-                    "image": "https://example.com/images/angela-dove-magic.jpg",
+                    "image": "https://i.pinimg.com/1200x/eb/28/ba/eb28ba959d71a7f017bccdb699d78aa2.jpg",
                     "attributes": {
                         "release_year": 2016,
                         "rarity": "Common",
@@ -340,7 +340,7 @@ app.get("/", (req, res) => {
                     "name": "Castle Guard",
                     "type": "Elite",
                     "price": 899,
-                    "image": "https://example.com/images/grock-castle-guard.jpg",
+                    "image": "https://i.pinimg.com/736x/0f/15/e7/0f15e70eb976481bfaf1a906f3beff7e.jpg",
                     "attributes": {
                         "release_year": 2017,
                         "rarity": "Rare",
