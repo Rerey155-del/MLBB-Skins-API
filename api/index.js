@@ -157,7 +157,7 @@ app.get("/", (req, res) => {
                     "name": "Cosmic Harmony",
                     "type": "Collector",
                     "price": 3000,
-                    "image": "https://example.com/images/lunox-cosmic-harmony.jpg",
+                    "image": "https://i.pinimg.com/736x/60/55/39/605539dc5f9b2b2b832fe9aa1eb025f0.jpg",
                     "attributes": {
                         "release_year": 2024,
                         "rarity": "Collector",
@@ -172,7 +172,7 @@ app.get("/", (req, res) => {
                     "type": "Legend",
                     "price": 200,
                     "currency": "Magic Cores",
-                    "image": "https://example.com/images/lesley-lethal-lady.jpg",
+                    "image": "https://i.pinimg.com/736x/dc/56/78/dc56781a3403978964fbf8d2f87f6626.jpg",
                     "attributes": {
                         "release_year": 2021,
                         "rarity": "Legend",
@@ -186,7 +186,7 @@ app.get("/", (req, res) => {
                     "name": "Royal Knight",
                     "type": "Special",
                     "price": 749,
-                    "image": "https://example.com/images/fanny-royal-knight.jpg",
+                    "image": "https://i.pinimg.com/1200x/44/2b/0e/442b0e8fb18a7794606d0b44d2103952.jpg",
                     "attributes": {
                         "release_year": 2018,
                         "rarity": "Uncommon",
@@ -200,7 +200,7 @@ app.get("/", (req, res) => {
                     "name": "Rock and Roll",
                     "type": "Normal",
                     "price": 599,
-                    "image": "https://example.com/images/clint-rock-and-roll.jpg",
+                    "image": "https://i.pinimg.com/736x/90/06/43/900643604d6e8414fc498e8f5bf41f9e.jpg",
                     "attributes": {
                         "release_year": 2016,
                         "rarity": "Common",
