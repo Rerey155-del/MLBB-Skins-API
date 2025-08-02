@@ -354,7 +354,7 @@ app.get("/", (req, res) => {
                     "name": "Viper",
                     "type": "Special",
                     "price": 749,
-                    "image": "https://example.com/images/hanabi-viper.jpg",
+                    "image": "https://i.pinimg.com/736x/5d/39/eb/5d39eb73ee0f165ace50f219498d831e.jpg",
                     "attributes": {
                         "release_year": 2018,
                         "rarity": "Uncommon",
@@ -368,7 +368,7 @@ app.get("/", (req, res) => {
                     "name": "Soul Contractor",
                     "type": "Epic",
                     "price": 1089,
-                    "image": "https://example.com/images/aldous-soul-contractor.jpg",
+                    "image": "https://i.pinimg.com/736x/cb/43/87/cb4387b6d134afadd0a65cc995958ff7.jpg",
                     "attributes": {
                         "release_year": 2019,
                         "rarity": "Epic",
@@ -382,7 +382,7 @@ app.get("/", (req, res) => {
                     "name": "Thunderfist",
                     "type": "Normal",
                     "price": 599,
-                    "image": "https://example.com/images/chou-thunderfist.jpg",
+                    "image": "https://i.pinimg.com/736x/3b/47/84/3b4784ec14be6c2ba7eff97d8bcd76ce.jpg",
                     "attributes": {
                         "release_year": 2016,
                         "rarity": "Common",
@@ -396,7 +396,7 @@ app.get("/", (req, res) => {
                     "name": "Mecha Baby",
                     "type": "Elite",
                     "price": 899,
-                    "image": "https://example.com/images/nana-mecha-baby.jpg",
+                    "image": "https://i.pinimg.com/736x/5a/64/4a/5a644af129554bfdfa3b3591fa3798c3.jpg",
                     "attributes": {
                         "release_year": 2017,
                         "rarity": "Rare",
@@ -424,7 +424,7 @@ app.get("/", (req, res) => {
                     "name": "Savage Point",
                     "type": "Normal",
                     "price": 599,
-                    "image": "https://example.com/images/balmond-savage-point.jpg",
+                    "image": "https://i.pinimg.com/736x/13/92/b1/1392b164d45c1abf96da191a450580b0.jpg",
                     "attributes": {
                         "release_year": 2016,
                         "rarity": "Common",
@@ -438,7 +438,7 @@ app.get("/", (req, res) => {
                     "name": "Valhalla Ruler",
                     "type": "Epic",
                     "price": 1089,
-                    "image": "https://example.com/images/franco-valhalla-ruler.jpg",
+                    "image": "https://i.pinimg.com/736x/9b/d0/7e/9bd07e21579a0bc7bba5d38d6ab4449f.jpg",
                     "attributes": {
                         "release_year": 2019,
                         "rarity": "Epic",
@@ -452,7 +452,7 @@ app.get("/", (req, res) => {
                     "name": "Phantom Dancer",
                     "type": "Special",
                     "price": 749,
-                    "image": "https://example.com/images/natalia-phantom-dancer.jpg",
+                    "image": "https://i.pinimg.com/736x/c5/28/d6/c528d6911f90eb650298cabbd7f66832.jpg",
                     "attributes": {
                         "release_year": 2018,
                         "rarity": "Uncommon",
@@ -466,7 +466,7 @@ app.get("/", (req, res) => {
                     "name": "Azure Sentry",
                     "type": "Elite",
                     "price": 899,
-                    "image": "https://example.com/images/yi-sun-shin-azure-sentry.jpg",
+                    "image": "https://i.pinimg.com/736x/d0/2f/0e/d02f0e1c6b34943db8b122f197023893.jpg",
                     "attributes": {
                         "release_year": 2017,
                         "rarity": "Rare",
@@ -480,7 +480,7 @@ app.get("/", (req, res) => {
                     "name": "Bladed Mantis",
                     "type": "Epic",
                     "price": 1089,
-                    "image": "https://example.com/images/karrie-bladed-mantis.jpg",
+                    "image": "https://i.pinimg.com/736x/e5/ad/c5/e5adc54cf85c121a6ed720c8b134fc81.jpg",
                     "attributes": {
                         "release_year": 2019,
                         "rarity": "Epic",
@@ -494,7 +494,7 @@ app.get("/", (req, res) => {
                     "name": "Supernova",
                     "type": "Collector",
                     "price": 3000,
-                    "image": "https://example.com/images/vale-supernova.jpg",
+                    "image": "https://i.pinimg.com/736x/00/27/a6/0027a65033d469128f602ca2a8ab2e53.jpg",
                     "attributes": {
                         "release_year": 2024,
                         "rarity": "Collector",
@@ -508,7 +508,7 @@ app.get("/", (req, res) => {
                     "name": "Virus",
                     "type": "Special",
                     "price": 749,
-                    "image": "https://example.com/images/selena-virus.jpg",
+                    "image": "https://i.pinimg.com/736x/cb/77/37/cb77377bb669f2c4ef0108960c912388.jpg",
                     "attributes": {
                         "release_year": 2018,
                         "rarity": "Uncommon",
@@ -522,7 +522,7 @@ app.get("/", (req, res) => {
                     "name": "Mermaid Princess",
                     "type": "Elite",
                     "price": 899,
-                    "image": "https://example.com/images/odette-mermaid-princess.jpg",
+                    "image": "https://i.pinimg.com/736x/2d/7d/aa/2d7daaeaca9392a6a19a26d091674eee.jpg",
                     "attributes": {
                         "release_year": 2017,
                         "rarity": "Rare",
@@ -536,7 +536,7 @@ app.get("/", (req, res) => {
                     "name": "Exoracial Executer",
                     "type": "Epic",
                     "price": 1089,
-                    "image": "https://example.com/images/helcurt-exoracial-executer.jpg",
+                    "image": "https://i.pinimg.com/736x/c7/3d/b4/c73db4daf38a0808b3182ff375656106.jpg",
                     "attributes": {
                         "release_year": 2019,
                         "rarity": "Epic",
@@ -550,7 +550,7 @@ app.get("/", (req, res) => {
                     "name": "Power of Wildness",
                     "type": "Normal",
                     "price": 599,
-                    "image": "https://example.com/images/hilda-power-wildness.jpg",
+                    "image": "https://i.pinimg.com/736x/1a/74/83/1a748377ddc8e222075be24a0f5dc2bb.jpg",
                     "attributes": {
                         "release_year": 2016,
                         "rarity": "Common",
@@ -564,7 +564,7 @@ app.get("/", (req, res) => {
                     "name": "Serene Plume",
                     "type": "Collector",
                     "price": 3000,
-                    "image": "https://example.com/images/ling-serene-plume.jpg",
+                    "image": "https://i.pinimg.com/736x/43/6c/96/436c963f46f10a1beb317efa00869fa2.jpg",
                     "attributes": {
                         "release_year": 2024,
                         "rarity": "Collector",
@@ -578,7 +578,7 @@ app.get("/", (req, res) => {
                     "name": "Spear of Quiescence",
                     "type": "Epic",
                     "price": 1089,
-                    "image": "https://example.com/images/moskov-spear-quiescence.jpg",
+                    "image": "https://i.pinimg.com/736x/e7/a1/b9/e7a1b9a033a2649f8309a52c7b7d1e16.jpg",
                     "attributes": {
                         "release_year": 2019,
                         "rarity": "Epic",
@@ -592,7 +592,7 @@ app.get("/", (req, res) => {
                     "name": "Golden Flash",
                     "type": "Special",
                     "price": 749,
-                    "image": "https://example.com/images/minsitthar-golden-flash.jpg",
+                    "image": "https://i.pinimg.com/736x/b4/78/54/b478548e75e4dc345b2ad408229335c5.jpg",
                     "attributes": {
                         "release_year": 2018,
                         "rarity": "Uncommon",
@@ -607,7 +607,7 @@ app.get("/", (req, res) => {
                     "type": "Starlight",
                     "price": 500,
                     "currency": "Starlight Points",
-                    "image": "https://example.com/images/cyclops-starlight-explorer.jpg",
+                    "image": "https://i.pinimg.com/736x/f6/7b/ef/f67bef6a8f6c83725f16677ec6a89bb7.jpg",
                     "attributes": {
                         "release_year": 2017,
                         "rarity": "Rare",
@@ -621,7 +621,7 @@ app.get("/", (req, res) => {
                     "name": "Count Dracula",
                     "type": "Special",
                     "price": 749,
-                    "image": "https://example.com/images/bane-count-dracula.jpg",
+                    "image": "https://i.pinimg.com/736x/6d/15/80/6d158061c98f025b17f5ba5391c0b680.jpg",
                     "attributes": {
                         "release_year": 2018,
                         "rarity": "Uncommon",
@@ -635,7 +635,7 @@ app.get("/", (req, res) => {
                     "name": "Agent Z",
                     "type": "Epic",
                     "price": 1089,
-                    "image": "https://example.com/images/granger-agent-z.jpg",
+                    "image": "https://i.pinimg.com/736x/2b/81/06/2b8106568d07608aa96bd288ab3a0786.jpg",
                     "attributes": {
                         "release_year": 2019,
                         "rarity": "Epic",
@@ -649,7 +649,7 @@ app.get("/", (req, res) => {
                     "name": "Windtalker",
                     "type": "Normal",
                     "price": 599,
-                    "image": "https://example.com/images/vale-windtalker.jpg",
+                    "image": "https://i.pinimg.com/736x/5d/1c/64/5d1c64bd897247522dc2fa23cb8fcae4.jpg",
                     "attributes": {
                         "release_year": 2016,
                         "rarity": "Common",
@@ -663,7 +663,7 @@ app.get("/", (req, res) => {
                     "name": "Wisteria Count",
                     "type": "Collector",
                     "price": 3000,
-                    "image": "https://example.com/images/cecilion-wisteria-count.jpg",
+                    "image": "https://i.pinimg.com/736x/9a/dd/eb/9addeb7e3ac64a05a38e5e6f33d1b250.jpg",
                     "attributes": {
                         "release_year": 2024,
                         "rarity": "Collector",
@@ -677,7 +677,7 @@ app.get("/", (req, res) => {
                     "name": "Wisteria Countess",
                     "type": "Collector",
                     "price": 3000,
-                    "image": "https://example.com/images/carmilla-wisteria-countess.jpg",
+                    "image": "https://i.pinimg.com/736x/b0/d4/fc/b0d4fc760692a5afb569a543b4de305f.jpg",
                     "attributes": {
                         "release_year": 2024,
                         "rarity": "Collector",
@@ -692,7 +692,7 @@ app.get("/", (req, res) => {
                     "type": "Legend",
                     "price": 200,
                     "currency": "Magic Cores",
-                    "image": "https://example.com/images/esmeralda-cleopatra.jpg",
+                    "image": "https://i.pinimg.com/736x/83/e7/87/83e787dd965e70d8d94fa6e14d76127c.jpg",
                     "attributes": {
                         "release_year": 2021,
                         "rarity": "Legend",
@@ -706,7 +706,7 @@ app.get("/", (req, res) => {
                     "name": "Firebolt",
                     "type": "Normal",
                     "price": 599,
-                    "image": "https://example.com/images/bruno-firebolt.jpg",
+                    "image": "https://i.pinimg.com/736x/7d/08/d0/7d08d0581f6cac197d21534c1535838d.jpg",
                     "attributes": {
                         "release_year": 2016,
                         "rarity": "Common",
