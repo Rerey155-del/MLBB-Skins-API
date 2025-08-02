@@ -16,7 +16,7 @@ app.get("/", (req, res) => {
                     "name": "Lone Hero",
                     "type": "Normal",
                     "price": 599,
-                    "image": "https://example.com/images/alucard-lone-hero.jpg",
+                    "image": "https://i.pinimg.com/736x/2d/28/f5/2d28f55395b3fe75db8747ac02780e6c.jpg",
                     "attributes": {
                         "release_year": 2016,
                         "rarity": "Common",
