@@ -410,7 +410,7 @@ app.get("/", (req, res) => {
                     "name": "Monkey King",
                     "type": "Special",
                     "price": 749,
-                    "image": "https://example.com/images/sun-monkey-king.jpg",
+                    "image": "https://i.pinimg.com/736x/80/49/85/8049856c15d324a4da5db176925faac8.jpg",
                     "attributes": {
                         "release_year": 2018,
                         "rarity": "Uncommon",
