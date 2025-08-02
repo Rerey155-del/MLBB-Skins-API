@@ -30,7 +30,7 @@ app.get("/", (req, res) => {
                     "name": "Moon Priestess",
                     "type": "Elite",
                     "price": 899,
-                    "image": "https://example.com/images/miya-moon-priestess.jpg",
+                    "image": "https://i.pinimg.com/736x/6f/b3/30/6fb3302b5799887b10e52626c48a7d0a.jpg",
                     "attributes": {
                         "release_year": 2017,
                         "rarity": "Rare",
@@ -44,7 +44,7 @@ app.get("/", (req, res) => {
                     "name": "Green Flash",
                     "type": "Special",
                     "price": 749,
-                    "image": "https://example.com/images/layla-green-flash.jpg",
+                    "image": "https://i.pinimg.com/736x/3c/48/11/3c481197b290800f9fdd920f268143a3.jpg",
                     "attributes": {
                         "release_year": 2018,
                         "rarity": "Uncommon",
@@ -58,7 +58,7 @@ app.get("/", (req, res) => {
                     "name": "Panda Warrior",
                     "type": "Epic",
                     "price": 1089,
-                    "image": "https://example.com/images/akai-panda-warrior.jpg",
+                    "image": "https://i.pinimg.com/736x/ec/96/9a/ec969a61aa3c3e0edbfa911bf63a915f.jpg",
                     "attributes": {
                         "release_year": 2019,
                         "rarity": "Epic",
@@ -72,7 +72,7 @@ app.get("/", (req, res) => {
                     "name": "Veil of the Celestials",
                     "type": "Collector",
                     "price": 3000,
-                    "image": "https://example.com/images/aurora-veil-celestials.jpg",
+                    "image": "https://i.pinimg.com/736x/20/b5/9f/20b59f0ad34035b808ca2e9a74a7a3cd.jpg",
                     "attributes": {
                         "release_year": 2025,
                         "rarity": "Collector",
@@ -87,7 +87,7 @@ app.get("/", (req, res) => {
                     "type": "Legend",
                     "price": 200,
                     "currency": "Magic Cores",
-                    "image": "https://example.com/images/gusion-cosmic-gleam.jpg",
+                    "image": "https://i.pinimg.com/736x/52/6b/0a/526b0a912264c64e34bfd4c066d74e61.jpg",
                     "attributes": {
                         "release_year": 2020,
                         "rarity": "Legend",
@@ -101,7 +101,7 @@ app.get("/", (req, res) => {
                     "name": "Eastern Warrior",
                     "type": "Normal",
                     "price": 599,
-                    "image": "https://example.com/images/zilong-eastern-warrior.jpg",
+                    "image": "https://i.pinimg.com/736x/f0/f1/24/f0f124910f5ce17e78a1c3a9422a74ee.jpg",
                     "attributes": {
                         "release_year": 2016,
                         "rarity": "Common",
@@ -115,7 +115,7 @@ app.get("/", (req, res) => {
                     "name": "Phantom Blade",
                     "type": "Elite",
                     "price": 899,
-                    "image": "https://example.com/images/karina-phantom-blade.jpg",
+                    "image": "https://i.pinimg.com/736x/4a/72/d9/4a72d9498227db9f68b6c72c57c4a673.jpg",
                     "attributes": {
                         "release_year": 2017,
                         "rarity": "Rare",
@@ -129,7 +129,7 @@ app.get("/", (req, res) => {
                     "name": "Dark Knight",
                     "type": "Special",
                     "price": 749,
-                    "image": "https://example.com/images/tigreal-dark-knight.jpg",
+                    "image": "https://i.pinimg.com/736x/45/41/d9/4541d95b236679c7e64a185f090eccb0.jpg",
                     "attributes": {
                         "release_year": 2018,
                         "rarity": "Uncommon",
@@ -143,7 +143,7 @@ app.get("/", (req, res) => {
                     "name": "Emerald Enchantress",
                     "type": "Epic",
                     "price": 1089,
-                    "image": "https://example.com/images/eudora-emerald-enchantress.jpg",
+                    "image": "https://i.pinimg.com/736x/9f/21/49/9f214980a3679aa4a82bb5368d0b96cf.jpg",
                     "attributes": {
                         "release_year": 2019,
                         "rarity": "Epic",
